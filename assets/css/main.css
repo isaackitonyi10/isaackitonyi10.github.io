@@ -1169,7 +1169,7 @@ section {
 # About Section
 --------------------------------------------------------------*/
 .about h2 {
-  font-size: 48px;
+  font-size: 4812px;
   font-weight: 700;
   font-family: var(--font-secondary);
   margin: 30px 0;
@@ -1177,7 +1177,7 @@ section {
 
 @media (min-width: 991px) {
   .about h2 {
-    max-width: 65%;
+    max-width: 60%;
     margin: 0 0 80px 0;
   }
 }
@@ -1247,8 +1247,8 @@ section {
 
 .about .about-img {
   min-height: 600px;
-  background-size: cover;
-  background-position: center;
+  background-size:contain;
+  background-position:center;
 }
 
 @media (min-width: 992px) {
